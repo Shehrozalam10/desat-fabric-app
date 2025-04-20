@@ -1,0 +1,25 @@
+[
+    {
+      "branch": "Computer Science",
+      "totalSeats": 60,
+      "categoryBreakup": {
+        "GEN": 30,
+        "OBC": 15,
+        "SC": 10,
+        "ST": 5
+      },
+      "fee": "75000"
+    },
+    {
+      "branch": "Electronics",
+      "totalSeats": 40,
+      "categoryBreakup": {
+        "GEN": 20,
+        "OBC": 10,
+        "SC": 6,
+        "ST": 4
+      },
+      "fee": "70000"
+    }
+  ]
+  

@@ -1,0 +1,33 @@
+{
+    "name": "DesatNetwork",
+    "version": "1.0.0",
+    "client": {
+      "organization": "DesatOrg",
+      "connection": {
+        "timeout": {
+          "peer": {
+            "endorser": "300"
+          }
+        }
+      }
+    },
+    "organizations": {
+      "DesatOrg": {
+        "mspid": "DesatMSP",
+        "peers": ["peer0.desat.com"],
+        "certificateAuthorities": ["ca.desat.com"]
+      }
+    },
+    "peers": {
+      "peer0.desat.com": {
+        "url": "grpc://localhost:7051"
+      }
+    },
+    "certificateAuthorities": {
+      "ca.desat.com": {
+        "url": "http://localhost:7054",
+        "caName": "ca-desat"
+      }
+    }
+  }
+  
